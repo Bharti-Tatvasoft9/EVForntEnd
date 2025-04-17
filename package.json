@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "postbuild" : "mv ./dist/evfrontend/browser/index.html ./dist/evfrontend/index.html",
+    "postbuild": "c _redirects dist\\evfrontend\\_redirects",
     "test": "ng test"
   },
   "private": true,
