@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class MachineService {
-  private baseUrl = 'https://localhost:44382';
+  private baseUrl = 'https://evbackend-8wjt.onrender.com';
 
   constructor(private http: HttpClient) {}
 
